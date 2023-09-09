@@ -31,13 +31,13 @@ To configure the local environment to use kubectl to interact with the cluster w
 
 ## Task 2:
 
-Step 1:
+**Step 1:**
 
 Fork https://github.com/saleor/saleor-platform into your personel github account. Clone the forked repository and change the port address to 9003 of dashboard from docker-compose.yml
 
 git clone YOUR REPOSITORY LINK
 
-Step 2:
+**Step 2:**
 
 Goto the cloned directory and build the application
 
@@ -45,19 +45,19 @@ cd saleor-platform
 
 docker compose build
 
-Step 3:
+**Step 3:**
 
 Apply Django Migrations 
 
 docker compose run --rm api python3 manage.py migrate
 
-Step 4:
+**Step 4:**
 
 Populate the database using example data
 
 docker compose run --rm api python3 manage.py populatedb --createsuperuser
 
-Step 5:
+**Step 5:**
 
 Run the application
 
@@ -76,9 +76,9 @@ After using username admin@example.com and password admin the following page is 
 
 ![image.png](images/img7.png)
 
-Now for react storefront
+**Now for react storefront**
 
-Step 1:
+**Step 1:**
 
 Fork https://github.com/saleor/react-storefront into your repository.
 
@@ -88,19 +88,19 @@ Goto the cloned directory and build the application
 
 and change the port address from 3000 to 3009 of storefront from docker-compose.yml
 
-Step 2:
+**Step 2:**
 
 Install pnpm globally
 
 npm install -g pnpm
 
-Step 4:
+**Step 3:**
 
 Install the Dependencies
 
 pnpm i
 
-Step 5:
+**Step 4:**
 
 Start the server
 
@@ -109,6 +109,9 @@ pnpm dev
 The final step boots up 4 application runing on different ports
 
 apps/react-storefront: http://localhost:3009
+
 apps/saleor-app-checkout: http://localhost:3001
+
 packages/checkout-storefront: http://localhost:3002
+
 packages/ui-kit storybook: http://localhost:6006
