@@ -88,6 +88,27 @@ Goto the cloned directory and build the application
 
 and change the port address from 3000 to 3009 of storefront from docker-compose.yml
 
-cd react-storefront
+Step 2:
 
-docker compose up
+Install pnpm globally
+
+npm install -g pnpm
+
+Step 4:
+
+Install the Dependencies
+
+pnpm i
+
+Step 5:
+
+Start the server
+
+pnpm dev
+
+The final step boots up 4 application runing on different ports
+
+apps/react-storefront: http://localhost:3009
+apps/saleor-app-checkout: http://localhost:3001
+packages/checkout-storefront: http://localhost:3002
+packages/ui-kit storybook: http://localhost:6006
