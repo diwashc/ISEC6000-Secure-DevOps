@@ -12,11 +12,12 @@ The step by step output is shown below:
 At first login in google cloud console is required. 
 
 Then navigating inside Kubernetes Engine section using the GUI after clicking “Create Cluster” a new cluster is created as shown in figure below.
-![](/Users/diwashchand/Documents/CURTIN/2nd Sem/Secure DevOps/Assignment/ISEC6000-Secure-DevOps/images/Screenshot 2023-09-06 at 21.30.01.png)
+![img.png](images/img1.png)
+
 Then as shown in figure below we can see the cluster name, location, number of nodes, total CPU and total memory of the cluster that is created.
-![](/Users/diwashchand/Desktop/Devops SS/Screenshot 2023-09-06 at 21.39.50.png)
+![img_2.png](images/img2.png)
 **Step 2:**
 
 To configure the local environment to use kubectl to interact with the cluster we use the command “gcloud container clusters get-credentials CLUSTERNAME –zone us-central1-c –project PROJECT NAME”. As shown in figure below kubeconfig entry was generated for assignment-1.
-![](/Users/diwashchand/Desktop/Devops SS/Screenshot 2023-09-06 at 21.40.57.png)
+![img_1.png](images/img3.png)
 
