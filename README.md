@@ -12,8 +12,7 @@ The step by step output is shown below:
 At first login in google cloud console is required. 
 
 Then navigating inside Kubernetes Engine section using the GUI after clicking “Create Cluster” a new cluster is created as shown in figure below.
-
-![](/Users/diwashchand/Desktop/Devops SS/Screenshot 2023-09-06 at 21.30.01.png)
+![](/Users/diwashchand/Documents/CURTIN/2nd Sem/Secure DevOps/Assignment/ISEC6000-Secure-DevOps/images/Screenshot 2023-09-06 at 21.30.01.png)
 Then as shown in figure below we can see the cluster name, location, number of nodes, total CPU and total memory of the cluster that is created.
 ![](/Users/diwashchand/Desktop/Devops SS/Screenshot 2023-09-06 at 21.39.50.png)
 **Step 2:**
